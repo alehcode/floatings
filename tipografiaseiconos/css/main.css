@@ -1,0 +1,38 @@
+body{
+	color: #686868;
+	text-align: center;
+}
+div {
+	
+	background-color: #FBFBFB;
+	float: left;
+	margin-left: 20px;
+	padding: 20px;
+	box-shadow: 2px 2px 3px 0;
+	
+}
+h3 {
+	font-family: arial;
+}
+h5 {
+	font-family: arial;
+	font-style: italic;
+}
+span{
+	font-size: 50px;
+}
+p{
+	font-family: verdana;
+	font-size: 14px;
+}
+.transition{
+	width: 200px;
+	height: 270px;
+	transition: width 1s, height 1s, margin 1s;
+}
+.transition:hover{
+	width: 220px;
+	height: 290px;
+	margin: 0 auto;
+	color: #A7B9DA;
+}
